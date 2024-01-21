@@ -1,0 +1,127 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./image/2.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  padding: 20px;
+}
+.banner .about-sign {
+  height: 80px;
+  width: 100%;
+}
+.banner .about-sign a {
+  float: right;
+  padding: 10px 6px;
+  color: #f2f593;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.banner .about-sign .fb {
+  margin-left: 30px;
+  display: inline-block;
+}
+.banner .about-sign .btn-1 {
+  border-radius: 25px;
+  border: thin solid #f2f593;
+  width: 80px;
+  color: #f2f593;
+  cursor: pointer;
+  background: transparent;
+  transition: 1s;
+}
+.banner .about-sign .btn-1:hover {
+  border: thin solid #009688;
+  color: #f2f593;
+  transition: 1s;
+  background-color: #009688;
+}
+.banner .logo {
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 1px solid #f1f1f1;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.banner .logo svg {
+  margin-top: -44px;
+}
+.banner .logo .can-container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 170px;
+  margin-top: -30px;
+  width: 100%;
+  margin-left: 2px;
+}
+.banner .logo .can-container .can2-container {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+}
+.banner .logo .can-container .can2-container .word {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.banner .logo .note {
+  margin-top: 50px;
+}
+.banner .logo .btn-end {
+  margin-top: 20px;
+}
+.banner .logo .btn-end a {
+  padding: 10px 6px;
+  color: #f2f593;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.banner .logo .btn-end .btn-1 {
+  border-radius: 25px;
+  border: thin solid #f2f593;
+  width: 80px;
+  color: #f2f593;
+  cursor: pointer;
+  background: transparent;
+  transition: 1s;
+}
+.banner .logo .btn-end .btn-1:hover {
+  border: thin solid #009688;
+  color: #f2f593;
+  transition: 1s;
+  background-color: #009688;
+}
+
+.red {
+  border: 1px solid red;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+/*# sourceMappingURL=custom.css.map */
